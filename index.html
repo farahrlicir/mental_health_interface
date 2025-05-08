@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Mental Health Prediction</title>
 </head>
+
 <body>
-    <nav>
+    <!-- Loader (Displayed first, then hidden after the page is fully loaded) -->
+    <div class="loader" id="loader">
+        <img src="mental-health.gif" alt="Loading..." />
+    </div>
 
-    </nav>
-    <main>
-
-    </main>
-    <footer>
+    <!-- Main Content (Hidden initially and displayed after the loader disappears) -->
+    <div id="content" style="display: none;">
+        <!-- Navigation Bar (if needed for other sections) -->
         
-    </footer>
+            <h1 class="text-3xl font-bold">
+              Ready to Predict Your Mental Health state!
+             </h1>
+        <!-- Footer Section -->
+        <footer>
+            <p>Disclaimer: This tool is for informational purposes only. Please consult a professional for diagnosis and support.</p>
+        </footer>
+    </div>
 
-
-<script>src="script.js"</script>
+    <script src="script.js"></script>
 </body>
+
 </html>
