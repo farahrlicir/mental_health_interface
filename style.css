@@ -4,9 +4,9 @@
     --lavendar-color:#B57EDC;  /* lavendar */
     --lightgreen-color: #96F97B;     /* light green */
 }
-body {
-    background-color: var(--lavendar-color);
-}
+
+   /* background-color: var(--lavendar-color);*/
+
 .loader {
   position: fixed;
   top: 50%;
@@ -22,3 +22,4 @@ body {
   width: 100px; /* Adjust size */
   height: 100px; /* Adjust size */
 }
+  

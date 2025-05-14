@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Chat Input</title>
+</head>
+
+<body class="bg-white font-sans h-screen flex flex-col">
+    <!-- Main Content -->
+    <div class="flex-grow"></div>
+
+    <!-- Input Section -->
+    <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center space-x-4">
+        
+            <input 
+            type="text" 
+            placeholder="Type your message..." 
+            class="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#B57EDC] focus:border-transparent text-gray-700"
+        >
+        <!-- Send Button -->
+        <button 
+            class="bg-[#FFE5C8] text-[#B57EDC] px-6 py-2 border border-[#B57EDC] rounded-lg font-bold hover:bg-[#FFD29E]">
+            Send
+        </button>
+        </div>
+    </div>
+</body>
+
+</html>
